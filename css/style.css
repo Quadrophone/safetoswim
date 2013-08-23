@@ -1,0 +1,174 @@
+body, html {
+	height:100%;
+	min-height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+header {
+
+}
+header {
+	display:table;
+	width:100%;
+		height:120px;
+			background-image: url('../img/water.svg');
+			background-size: 100%;
+}
+
+h1 {
+	height:120px;
+	font-family: 'Oxygen';
+	color:#FFF;
+	font-size:35px;
+	text-align: center;
+		background-color:rgba(0,155,46,.7);
+	margin-bottom: .5em;
+	margin:0;
+	display: table-cell;
+	width:100%;
+	vertical-align: middle;
+	color:#fff;
+	text-shadow: -1px -1px 0 #000,
+                          0 -1px 0 #000,
+                          1px -1px 0 #000,
+                          1px 0 0 #000,
+                          1px 1px 0 #000,
+                          0 1px 0 #000,
+                          -1px 1px 0 #000,
+                          -1px 0 0 #000;
+
+}
+tr p:first-child {
+	padding-left:1em;
+}
+
+
+table {
+	height:auto;
+	background-color:white;
+width:100%;
+	float:left;
+	font-family: 'Lato';
+}
+body {
+	background-color:#009B2E;
+}
+img.water {
+	width: 100%;
+	margin-bottom: 2em;
+}
+td {
+border-top: 1px solid #009B2E;
+}
+span.beach, span.bacteria {
+	border-bottom: 1px solid #009B2E;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	display: block;
+	font-style: italic;
+	font-family: 'Oxygen';
+	background-color: #FFF;
+	margin-top:0;
+	font-size: 18px;
+	color:#000;
+}
+
+div.table  {
+	height:100%;
+}
+
+
+
+p.ft5, p.ft7, p.ft8, p.ft9, p.ft10, .tr4.td7, .tr4.td8, .tr8.td6, .td6, .tr10.td6{
+	display:none;
+}
+
+.tr0 .ft2 {
+	display: none;
+}
+
+
+
+
+.p5 {
+	display:none;
+}
+td.tr5 p {
+	display:none;
+}
+span#current span.ft2 {
+	display:none;
+}
+span.beach {
+	margin-top:2em;
+	float:left;
+	width:70%;
+		text-align: left;
+		padding-left: 4%;
+}
+span.bacteria {
+	margin-top:2em;
+	float:right;
+	width:26%;
+	text-align:left;
+}
+span.date {
+	
+	text-align: center;
+
+}
+div.update span {
+	display:inline-block;
+}
+div.update {
+		font-family: 'Lato';
+	background-color:#009B2E;
+	color:#FFF;
+	width:100%;
+	text-align: center;
+}
+span.date:nth-of-type(2) {
+	padding-bottom: 10px;
+	font-weight:600;
+}
+span.location {
+	display: block;
+	width:100%;
+	text-align: center;
+	font-family: 'Oxygen';
+	font-size:22px;
+	background-color: #FFF;
+	border-bottom: 2px solid #009B2E;
+	padding-top:.5em;
+	padding-bottom: .5em;
+}
+p.disclaimer a {
+	color:#FFF;
+}
+p.disclaimer {
+
+	bottom:0;
+		background-color:#009B2E;
+	font-family: 'Oxygen';
+	color:#FFF;
+	text-align: justify;
+	line-height:1.4em;
+	padding:1em;
+
+}
+
+
+@media screen and (min-width:767px) {
+	h1 {
+		font-size: 3em;
+	}
+
+}
+
+@media screen and (min-width:500px) {
+	div.update {
+		font-size:1.5em;
+	}
+	}

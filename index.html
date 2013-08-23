@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Safe to Swim</title>
+    <meta name="author" content="James Podles">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="    "/>
+   <meta name="keywords" content="   ">
+   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <body>
+  <header>
+
+
+<h1>Safe to Swim?</h1>
+
+</header>
+<div class="update">
+<span class="date">Last Updated</span><span class="date" id="current"></span>
+
+</div>
+<span class="beach">Beach</span><span class="bacteria">Count</span>
+<div class="table" id="tableone">
+
+
+
+  
+
+</div>
+
+<div>
+
+<p class="disclaimer">
+Data taken from <a href="http://vch.ca">Vancouver Coastal Health</a>'s weekly test. E. coli level expressed as bacteria count per 100ml of water. The Canadian Recreational Water Quality Guidelines recommend participating in primary contact recreational activities in water with an E. coli level of less than 200. Bacteria levels are constantly changing; this data is not guaranteed to be accurate.
+
+</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('div#tableone').load('http://quadrophone.com/safe-to-swim/vch.html  table');
+$('span#current').load('http://quadrophone.com/safe-to-swim/vch.html p.p4.ft3')
+
+});
+</script>
+
+  </body>
+</html>
+
