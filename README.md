@@ -1,4 +1,7 @@
-safetoswim
+Safe to Swim
 ==========
 
-Safe to Swim Vancouver
+Check the water quality of any of Vancouver's beaches from your mobile phone.
+
+
+**Paused until non-PDF data released by VCH**
